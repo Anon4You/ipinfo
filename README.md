@@ -11,9 +11,9 @@ Ip address information gathering tool for termux only....
 pkg up -y && apt install python wget -y && pip install --upgrade pip && pip install requests && wget https://raw.githubusercontent.com/Anon4You/ipinfo/main/ipinfo && mv ipinfo $PREFIX/bin && chmod +x $PREFIX/bin/ipinfo && echo "" && echo tyep ipinfo to run the tool
 ```
 ## After installation type bellow command <br>
-To run the tool
+> To run the tool
 ```
 ipinfo
 ```
 ## Author
-* [Alienkrishn](https://www.instagram.com/alienkrishn) - webinfo
+* [Alienkrishn](https://www.instagram.com/alienkrishn) - ipinfo
