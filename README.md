@@ -8,7 +8,7 @@ Ip address information gathering tool for termux only....
 ## Installation
 > Just copy and paste the bellow command in your Termux... 
 ```
-pkg up -y && apt install python wget -y && pip install --upgrade pip && pip install requests && wget https://raw.githubusercontent.com/Anon4You/ipinfo/main/ipinfo && mv ipinfo $PREFIX/bin && chmod +x $PREFIX/bin/ipinfo
+apt update && apt upgrade -y && apt install python wget -y && pip install --upgrade pip && pip install requests && wget https://raw.githubusercontent.com/Anon4You/ipinfo/main/ipinfo && mv ipinfo $PREFIX/bin && chmod +x $PREFIX/bin/ipinfo
 ```
 ## After installation type bellow command <br>
 > To run the tool
